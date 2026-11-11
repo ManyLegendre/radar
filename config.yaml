@@ -9,7 +9,7 @@ watchlist:
     peers: [AIR.PA, SAF.PA, RHM.DE]
   - symbol: NVDA
     peers: [AMD, AVGO, TSM]
-   - symbol: ASML.AS
+  - symbol: ASML.AS
     peers: [AMAT, LRCX, KLAC]
   - symbol: TSM
     peers: [INTC, 005930.KS, GFS]
