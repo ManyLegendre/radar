@@ -1,0 +1,19 @@
+# Les actions à surveiller. Symboles Yahoo Finance : Paris = .PA, Allemagne = .DE, USA = rien.
+# "peers" = concurrents comparés (valorisation, marges, croissance).
+watchlist:
+  - symbol: MC.PA
+    peers: [RMS.PA, KER.PA, OR.PA]
+  - symbol: TTE.PA
+    peers: [SHEL.L, XOM, BP.L]
+  - symbol: HO.PA
+    peers: [AIR.PA, SAF.PA, RHM.DE]
+  - symbol: NVDA
+    peers: [AMD, AVGO, TSM]
+
+# Seuils qui déclenchent une notification
+thresholds:
+  move_pct: 3          # variation du jour en %
+  volume_ratio: 2      # volume du jour / moyenne 20 jours
+  rsi_high: 70         # surachat
+  rsi_low: 30          # survente
+  earnings_days: 3     # prévenir X jours avant les résultats
