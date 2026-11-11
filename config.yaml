@@ -9,6 +9,18 @@ watchlist:
     peers: [AIR.PA, SAF.PA, RHM.DE]
   - symbol: NVDA
     peers: [AMD, AVGO, TSM]
+   - symbol: ASML.AS
+    peers: [AMAT, LRCX, KLAC]
+  - symbol: TSM
+    peers: [INTC, 005930.KS, GFS]
+  - symbol: AIR.PA
+    peers: [BA, SAF.PA, ERJ]
+  - symbol: SU.PA
+    peers: [SIE.DE, ABBN.SW, LR.PA]
+  - symbol: ENGI.PA
+    peers: [IBE.MC, ENEL.MI, EOAN.DE]
+  - symbol: RUI.PA
+    peers: [VOPA.AS, SUN, TTE.PA]
 
 # Seuils qui déclenchent une notification
 thresholds:
