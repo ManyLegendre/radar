@@ -43,6 +43,24 @@ watchlist:
     peers: [WMT, BABA, MSFT]
   - symbol: GOOGL
     peers: [MSFT, META, AMZN]
+  - symbol: SPCX
+    peers: [RKLB, BA, LMT]
+  - symbol: SAP.DE
+    peers: [ORCL, CRM, MSFT]
+  - symbol: NVO
+    peers: [LLY, AZN.L, SAN.PA]
+  - symbol: ROG.SW
+    peers: [NOVN.SW, NVO, PFE]
+  - symbol: DTE.DE
+    peers: [ORA.PA, VOD.L, T]
+  - symbol: ORA.PA
+    peers: [DTE.DE, VOD.L, TEF.MC]
+  - symbol: AI.PA
+    peers: [LIN, APD, AKZA.AS]
+  - symbol: ENR.DE
+    peers: [GE, LR.PA, SU.PA]
+  - symbol: ITX.MC
+    peers: [HM-B.ST, CA.PA, OR.PA]
 
 # Seuils qui déclenchent une notification
 thresholds:
