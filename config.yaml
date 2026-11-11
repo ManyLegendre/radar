@@ -21,6 +21,28 @@ watchlist:
     peers: [IBE.MC, ENEL.MI, EOAN.DE]
   - symbol: RUI.PA
     peers: [VOPA.AS, SUN, TTE.PA]
+  - symbol: DG.PA
+    peers: [HO.PA, ACS.MC, ENA.MI]
+  - symbol: VIE.PA
+    peers: [SEV.PA, ENG.MC, EVT.PA]
+  - symbol: BNP.PA
+    peers: [GLE.PA, ACA.PA, SAN.MC]
+  - symbol: CA.PA
+    peers: [TGT, AHO.AS, WMT]
+  - symbol: ACA.PA
+    peers: [BNP.PA, GLE.PA, ISP.MI]
+  - symbol: GLE.PA
+    peers: [BNP.PA, ACA.PA, DBK.DE]
+  - symbol: CS.PA
+    peers: [ALV.DE, ZURN.SW, G.MI]
+  - symbol: HNA.DE
+    peers: [RHM.DE, HO.PA, LDO.MI]
+  - symbol: ENE.PA
+    peers: [TTE.PA, SUN, VOPA.AS]
+  - symbol: AMZN
+    peers: [WMT, BABA, MSFT]
+  - symbol: GOOGL
+    peers: [MSFT, META, AMZN]
 
 # Seuils qui déclenchent une notification
 thresholds:
